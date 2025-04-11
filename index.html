@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="row mt-4">
+
+            <!-- Headding -->
+            <div class="col-md-6 d-flex align-items-center">
+                <img src="./img/movieIcon.jpg" alt="movie icon" class="img-fluid me-5 icon"
+                    style="width: 80px; height: auto;">
+                <h1>Movie Search</h1>
+            </div>
+        </div>
+
+        <!-- Input box & Button -->
+        <div class="input-group mt-4">
+            <input type="text" id="inputBox" class="form-control me-2" placeholder="Enter the movie name..." />
+            <button class="btn btn-primary" id="searchButton">Search</button>
+        </div>
+
+        <!-- Search Details -->
+        <div id="movieDetails"></div>
+        <div id="errorHandling" class="error-handling"></div>
+
+    </div>
+
+    <!-- Javascript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- External Javascript file -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

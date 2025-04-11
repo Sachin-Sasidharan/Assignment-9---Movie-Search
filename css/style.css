@@ -1,0 +1,52 @@
+/* Dated  : 10/04/2025 
+   Author : Sachin Sasidharan */
+
+
+/* Reset default styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Body style */
+body {
+   background-color: rgb(230, 234, 219);
+   padding: 20px 40px;
+}
+
+/* Heading style */
+h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 35px;
+   font-weight: 600;
+}
+
+/* Movie icon style */
+.icon {
+   border-radius: 20px;
+   border: 7px solid;
+}
+
+/* Movie details div style */
+.moviedetails {
+   border-radius: 10px;
+   margin-top: 15px;
+   overflow: hidden;
+   background-color: rgba(255, 255, 255, 0.523);
+}
+
+/* Movie poster image style */
+.poster {
+   max-height: 400px;
+   width: auto;
+   object-fit: cover;
+}
+
+/* Error div style */
+
+.error-handling {
+   color: red;
+   font-weight: 500;
+   margin-top: 30px;
+}
